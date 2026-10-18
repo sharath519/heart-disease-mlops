@@ -1,0 +1,30 @@
+{
+  "run": "logistic_regression_tuned",
+  "model": "logistic_regression",
+  "tuned": true,
+  "accuracy_mean": 0.8581967213114753,
+  "precision_mean": 0.8661657434560659,
+  "recall_mean": 0.8203703703703704,
+  "f1_mean": 0.8402327841649875,
+  "roc_auc_mean": 0.9167834094917428,
+  "accuracy_std": 0.0334522647624517,
+  "precision_std": 0.03792500799949944,
+  "recall_std": 0.07443882230399666,
+  "f1_std": 0.043658161493455576,
+  "roc_auc_std": 0.030262029261947418,
+  "features": [
+    "age",
+    "trestbps",
+    "chol",
+    "thalach",
+    "oldpeak",
+    "sex",
+    "cp",
+    "fbs",
+    "restecg",
+    "exang",
+    "slope",
+    "ca",
+    "thal"
+  ]
+}

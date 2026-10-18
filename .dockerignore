@@ -1,0 +1,17 @@
+venv/
+.venv/
+__pycache__/
+.git/
+.github/
+mlruns/
+mlartifacts/
+mlflow.db
+data/
+notebooks/
+tests/
+screenshots/
+reports/
+docs/
+k8s/
+monitoring/
+*.md
