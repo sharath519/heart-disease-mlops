@@ -13,7 +13,7 @@ def test_clean_data_columns_and_target(raw_df):
 
 def test_target_is_binary(raw_df):
     df = clean_data(raw_df)
-    assert set(df[config.TARGET].unique()) <= {0, 1remove}
+    assert set(df[config.TARGET].unique()) <= {0, 1}
 
 
 def test_no_missing_after_cleaning(raw_df):
